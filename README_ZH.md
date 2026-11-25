@@ -11,6 +11,17 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [产品主页 (solocraft.app)](https://solocraft.app/fasting-tracker) · [隐私政策](PRIVACY.md)
 
+<br/>
+
+<table>
+  <tr>
+    <td><img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/1_home.png" alt="断食计时（浅色）" width="200"/></td>
+    <td><img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/2_home_dark.png" alt="断食计时（深色）" width="200"/></td>
+    <td><img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/3_stats.png" alt="统计与记录" width="200"/></td>
+    <td><img src="fastlane/metadata/android/zh-CN/images/phoneScreenshots/4_settings.png" alt="设置与通知控制" width="200"/></td>
+  </tr>
+</table>
+
 </div>
 
 ---

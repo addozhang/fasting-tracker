@@ -11,6 +11,17 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [Website (solocraft.app)](https://solocraft.app/fasting-tracker) · [Privacy Policy](PRIVACY.md)
 
+<br/>
+
+<table>
+  <tr>
+    <td><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_home.png" alt="Timer (Light)" width="200"/></td>
+    <td><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_home_dark.png" alt="Timer (Dark)" width="200"/></td>
+    <td><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_stats.png" alt="Progress & Stats" width="200"/></td>
+    <td><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4_settings.png" alt="Settings & Privacy" width="200"/></td>
+  </tr>
+</table>
+
 </div>
 
 ---
