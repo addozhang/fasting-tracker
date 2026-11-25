@@ -86,6 +86,12 @@ android {
     testOptions {
         unitTests.isReturnDefaultValues = true
     }
+    dependenciesInfo {
+        // Omit Google-encrypted dependency block from APKs for F-Droid / IzzyOnDroid compatibility,
+        // while keeping it enabled for Google Play AAB bundles.
+        includeInApk = false
+        includeInBundle = true
+    }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
