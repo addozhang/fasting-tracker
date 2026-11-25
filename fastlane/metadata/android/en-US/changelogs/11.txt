@@ -1,0 +1,7 @@
+v2.0.0:
+- Complete Organic Minimal Material 3 redesign and 3-tab navigation
+- Native Android 16+ Live Updates & HyperOS Super Island support for fasting and eating windows
+- Independent toggles for Live Update, Lock Screen visibility, and Minimal notification style
+- Monthly heatmap, rounded weekly chart, history editor, and adaptive 2x2 / 4x2 widgets
+- Local JSON backup & restore (SAF)
+- Open-sourced under GPL-3.0 with a pure 100% FOSS build flavor

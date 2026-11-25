@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fasting Tracker</string>
+
+    <!-- Navigation (3-Tab) -->
+    <string name="nav_timer">Timer</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+
+    <!-- Timer Screen -->
+    <string name="start_fasting">Start Fast</string>
+    <string name="end_fast">End Fast</string>
+    <string name="adjust_start_time">Adjust start time</string>
+    <string name="remaining_label">Remaining</string>
+    <string name="elapsed_label">Elapsed</string>
+    <string name="eating_window_label">Eating Window</string>
+    <string name="eating_elapsed_label">Eating</string>
+    <string name="ready_to_fast">Ready whenever you are</string>
+    <string name="tap_to_switch">Tap to switch</string>
+    <string name="goal_reached_badge">Goal reached (+%1$s)</string>
+    <string name="started_at_label">Started</string>
+    <string name="target_end_label">Target End</string>
+    <string name="last_ended_label">Last Ended</string>
+    <string name="suggested_next_label">Next Fast</string>
+    <string name="streak_days_short">%1$dd</string>
+    <string name="tomorrow_prefix">Tomorrow %1$s</string>
+    <string name="yesterday_prefix">Yesterday %1$s</string>
+
+    <!-- Metabolic Phases & Milestones -->
+    <string name="phase_settling">Blood Sugar Settling</string>
+    <string name="phase_fat_burning">Fat Burning</string>
+    <string name="phase_ketosis">Ketosis</string>
+    <string name="phase_deep_ketosis">Deep Ketosis</string>
+    <string name="phase_autophagy">Autophagy</string>
+    <string name="phase_deep_autophagy">Deep Autophagy</string>
+    <string name="phase_extended_reset">Extended Reset</string>
+
+    <string name="milestone_12h_desc">Glycogen stores drop and your body shifts toward fat oxidation.</string>
+    <string name="milestone_16h_desc">Ketone levels rise, supporting steady energy and mental clarity.</string>
+    <string name="milestone_18h_desc">Ketone production deepens and growth hormone begins to rise.</string>
+    <string name="milestone_24h_desc">Cells activate self-renewal and recycle damaged components.</string>
+    <string name="milestone_48h_desc">Deeper cellular renewal phase. Stay hydrated with electrolytes.</string>
+    <string name="milestone_72h_desc">Advanced extended fast. Listen to your body and refeed gently.</string>
+    <string name="milestone_unlocked">Unlocked</string>
+    <string name="milestone_locked">Upcoming</string>
+
+    <!-- Plan Sheet -->
+    <string name="plans_sheet_title">Fasting Plans</string>
+    <string name="plan_group_daily">Daily Intermittent</string>
+    <string name="plan_group_extended">Extended Fasts (Hydrate &amp; Electrolytes)</string>
+    <string name="plan_group_custom">Custom Plans</string>
+    <string name="plan_daily_desc">%1$dh fast · %2$dh eat</string>
+    <string name="plan_extended_desc">%1$dh extended fast</string>
+    <string name="new_custom_plan">New Plan</string>
+    <string name="create_plan_title">Create Custom Plan</string>
+    <string name="plan_name_label">Plan Name</string>
+    <string name="fasting_hours_label">Fasting Hours</string>
+    <string name="eating_hours_label">Eating Window (optional)</string>
+    <string name="extended_fast_checkbox">Extended fast (no eating window)</string>
+    <string name="delete_plan_title">Delete Plan?</string>
+    <string name="delete_plan_message">Delete \"%1$s\"? Past fasting records using this plan will be safely kept.</string>
+    <string name="plan_deleted_toast">Plan deleted (history preserved)</string>
+
+    <!-- Time Adjust & End Fast Sheet -->
+    <string name="adjust_start_sheet_title">Adjust Start Time</string>
+    <string name="quick_now">Now</string>
+    <string name="quick_30m_ago">30m ago</string>
+    <string name="quick_1h_ago">1h ago</string>
+    <string name="quick_2h_ago">2h ago</string>
+    <string name="pick_exact_time">Pick exact date &amp; time</string>
+    <string name="end_fast_confirm_title">End this fast?</string>
+    <string name="end_fast_short_title">Under 1 Hour</string>
+    <string name="end_fast_short_desc">This fast has only lasted %1$s (under 1h). Ending now will discard it without saving to history.</string>
+    <string name="discard_fast">Discard Fast</string>
+    <string name="keep_fasting">Keep Fasting</string>
+    <string name="save_fast">Save Fast</string>
+    <string name="mood_optional_label">How do you feel? (optional)</string>
+    <string name="note_optional_placeholder">Add a short note (optional)</string>
+    <string name="fast_saved_toast">Fast saved to history</string>
+    <string name="fast_discarded_toast">Discarded fast under 1 hour</string>
+    <string name="end_time_label">End Time</string>
+
+    <!-- Stats Screen -->
+    <string name="stats_title">Progress</string>
+    <string name="log_past_fast">Log Fast</string>
+    <string name="total_fasts">Total Fasts</string>
+    <string name="current_streak">Streak</string>
+    <string name="longest_fast">Longest</string>
+    <string name="average_fast">Average</string>
+    <string name="weekly_overview">Last 7 Days</string>
+    <string name="weekly_target_label">%1$dh goal</string>
+    <string name="monthly_heatmap">Monthly Rhythm</string>
+    <string name="fasting_history">History</string>
+    <string name="tap_to_edit_hint">Tap to edit or delete</string>
+    <string name="no_history_yet">No completed fasts yet. Your journey starts with the first fast.</string>
+    <string name="heatmap_no_record">No fast recorded</string>
+
+    <!-- Achievements -->
+    <string name="achievement_first_fast">First Fast</string>
+    <string name="achievement_16h">16h Club</string>
+    <string name="achievement_18h">18h Club</string>
+    <string name="achievement_24h">24h Warrior</string>
+    <string name="achievement_7d">7-Day Streak</string>
+
+    <!-- Session Editor Sheet -->
+    <string name="edit_record_title">Edit Record</string>
+    <string name="add_record_title">Log Past Fast</string>
+    <string name="start_date_time">Start</string>
+    <string name="end_date_time">End</string>
+    <string name="calculated_duration">Duration</string>
+    <string name="select_plan_label">Plan</string>
+    <string name="error_duration_range">Duration must be between 1 hour and 168 hours.</string>
+    <string name="error_end_before_start">End time must be after start time.</string>
+    <string name="error_future_time">Time cannot be in the future.</string>
+    <string name="error_session_overlap">This time range overlaps with another fasting record.</string>
+    <string name="delete_record_confirm">Delete this fasting record permanently?</string>
+    <string name="record_deleted_toast">Record deleted</string>
+    <string name="record_updated_toast">Record saved</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color_title">Dynamic Color</string>
+    <string name="dynamic_color_desc">Match system wallpaper colors (off preserves Organic Minimal palette)</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_english">English</string>
+    <string name="lang_chinese">简体中文</string>
+
+    <string name="settings_notifications">Notifications</string>
+    <string name="notif_permission_required">Notification Permission Needed</string>
+    <string name="notif_permission_message">Enable notifications to receive milestone alerts and live timer updates.</string>
+    <string name="enable_permission">Open Settings</string>
+    <string name="live_update_hint_title">Live Updates / Super Island</string>
+    <string name="live_update_hint_desc">Allow promoted ongoing notifications to show fasting timer on lock screen and status pill.</string>
+    <string name="notif_all_title">Enable Notifications</string>
+    <string name="notif_ongoing_title">Ongoing Status Bar Timer</string>
+    <string name="notif_ongoing_desc">Keep a silent live timer in the notification shade</string>
+    <string name="notif_super_island_title">Super Island / Live Update</string>
+    <string name="notif_super_island_desc">Promote timer into top status pill &amp; expanded island</string>
+    <string name="notif_lock_screen_title">Show on Lock Screen</string>
+    <string name="notif_lock_screen_desc">Hide timer on lock screen when off (visible after unlock)</string>
+    <string name="notif_minimal_title">Minimal Notification Style</string>
+    <string name="notif_minimal_desc">Show only phase, elapsed time &amp; progress bar (hides timestamps &amp; buttons)</string>
+    <string name="notif_milestone_title">Metabolic Milestones</string>
+    <string name="notif_milestone_desc">Alert at 12h, 16h, 18h, 24h, 48h, 72h</string>
+    <string name="notif_complete_title">Goal Reached</string>
+    <string name="notif_complete_desc">Alert when you reach your plan target</string>
+
+    <string name="settings_data">Local Data</string>
+    <string name="backup_desc">100% local JSON file via system file picker. Never uploaded.</string>
+    <string name="export_backup">Export Backup</string>
+    <string name="import_backup">Import Backup</string>
+    <string name="export_success">Backup exported successfully</string>
+    <string name="import_success">Imported %1$d plans and %2$d records</string>
+    <string name="backup_error">Backup failed: %1$s</string>
+
+    <string name="support_developer">Support Developer</string>
+    <string name="support_developer_desc">Ad-free, zero tracking, 100% local privacy.</string>
+    <string name="support_now">Buy a Coffee</string>
+    <string name="donation_dialog_title">Support Development</string>
+    <string name="donation_dialog_message">Thank you for using Fasting Tracker! Your support helps keep this app free, private, and continuously improved.</string>
+    <string name="donation_dialog_foss_hint">Opens solocraft.app in your browser</string>
+    <string name="donation_price">$1.99</string>
+    <string name="maybe_later">Maybe Later</string>
+    <string name="donation_processing">Processing…</string>
+    <string name="donation_success_title">Thank You!</string>
+    <string name="donation_success_message">Your support means a lot and helps keep Fasting Tracker privacy-first.</string>
+    <string name="donation_error_title">Purchase Unavailable</string>
+    <string name="donation_error_message">Unable to complete the purchase right now. Please try again later.</string>
+
+    <string name="settings_about">About</string>
+    <string name="about_solocraft">Made by SoloCraft</string>
+    <string name="about_solocraft_desc">solocraft.app · Minimal, privacy-first indie apps</string>
+    <string name="about_source_code">Open Source (GPL-3.0)</string>
+    <string name="about_source_code_desc">View source code on GitHub</string>
+    <string name="app_version">Version</string>
+    <string name="app_description">A calm, privacy-first intermittent fasting tracker. All data stays on your device.</string>
+    <string name="view_disclaimer">Health Disclaimer &amp; Privacy</string>
+    <string name="disclaimer_title">Health Disclaimer</string>
+    <string name="disclaimer_message">Fasting Tracker is for personal wellness tracking only and does not provide medical advice. Please consult a healthcare professional before starting any fasting regimen, especially extended fasts (24h+), or if you have underlying health conditions.</string>
+    <string name="disclaimer_accept">I Understand</string>
+    <string name="privacy_first_title">Privacy First</string>
+    <string name="privacy_first_desc">Zero accounts, zero analytics, zero cloud sync. Every record lives solely on your device.</string>
+
+    <!-- Notifications & Channels -->
+    <string name="channel_ongoing_name">Live Fasting Timer</string>
+    <string name="channel_ongoing_desc">Live fasting progress in status bar and lock screen</string>
+    <string name="channel_milestone_name">Metabolic Milestones</string>
+    <string name="channel_milestone_desc">Alerts when reaching metabolic fasting stages</string>
+    <string name="channel_reminder_name">Fasting Goal Alerts</string>
+    <string name="channel_reminder_desc">Alerts when your fasting target is reached</string>
+
+    <string name="notif_ongoing_title_format">%1$s · %2$s</string>
+    <string name="notif_ongoing_goal_reached">%1$s · Goal Reached</string>
+    <string name="notif_ongoing_body_format">Started %1$s · Target %2$s</string>
+    <string name="notif_eating_title_format">%1$s · Eating Window</string>
+    <string name="notif_eating_body_format">Ended %1$s · Next fast %2$s</string>
+    <string name="notif_milestone_title_format">%1$s Reached</string>
+    <string name="notif_complete_body">You completed your %1$dh fasting target. Great work!</string>
+
+    <!-- Widget & Shortcuts -->
+    <string name="widget_description">Track your active fast or eating window at a glance.</string>
+    <string name="widget_ready">Ready to fast</string>
+    <string name="shortcut_start_fast_short">Start Fast</string>
+    <string name="shortcut_start_fast_long">Start Fasting</string>
+</resources>

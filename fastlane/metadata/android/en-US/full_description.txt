@@ -1,0 +1,12 @@
+Fasting Tracker is a calm, offline-first, open-source intermittent fasting timer built for Android.
+
+Key Features:
+- 100% free & open source (GPL-3.0), zero ads, zero subscriptions, zero accounts
+- Offline-first privacy: no INTERNET permission, all data stays locally on your device with manual JSON export/import
+- Organic Minimal Material 3 UI with tabular numerals, clickable metabolic stage ring, weekly bar chart, and monthly heatmap
+- Built-in fasting schedules (14:10, 16:8, 18:6, 20:4, 24h, 48h, 72h) plus custom plans
+- Android 16+ Live Updates & HyperOS Super Island native support for both fasting and eating windows, with independent toggles for Live Update, lock screen visibility, and minimal style
+- Adaptive 2x2 and 4x2 Jetpack Glance home screen widgets
+- Native English and Simplified Chinese support
+
+Made by SoloCraft (https://solocraft.app).

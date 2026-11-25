@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">断食追踪</string>
+
+    <!-- Navigation (3-Tab) -->
+    <string name="nav_timer">计时</string>
+    <string name="nav_stats">统计</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Common -->
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="save">保存</string>
+    <string name="create">创建</string>
+    <string name="delete">删除</string>
+    <string name="ok">好的</string>
+    <string name="retry">重试</string>
+    <string name="done">完成</string>
+    <string name="close">关闭</string>
+
+    <!-- Timer Screen -->
+    <string name="start_fasting">开始断食</string>
+    <string name="end_fast">结束断食</string>
+    <string name="adjust_start_time">调整开始时间</string>
+    <string name="remaining_label">剩余时间</string>
+    <string name="elapsed_label">已持续</string>
+    <string name="eating_window_label">自然进食窗口</string>
+    <string name="eating_elapsed_label">已进食</string>
+    <string name="ready_to_fast">随时开启下一轮轻断食</string>
+    <string name="tap_to_switch">点击切换视图</string>
+    <string name="goal_reached_badge">已达标 (+%1$s)</string>
+    <string name="started_at_label">开始于</string>
+    <string name="target_end_label">预计结束</string>
+    <string name="last_ended_label">上次结束</string>
+    <string name="suggested_next_label">建议下次断食</string>
+    <string name="streak_days_short">%1$d天</string>
+    <string name="tomorrow_prefix">明天 %1$s</string>
+    <string name="yesterday_prefix">昨天 %1$s</string>
+
+    <!-- Metabolic Phases & Milestones -->
+    <string name="phase_settling">血糖回落期</string>
+    <string name="phase_fat_burning">燃脂启动</string>
+    <string name="phase_ketosis">生酮状态</string>
+    <string name="phase_deep_ketosis">深度生酮</string>
+    <string name="phase_autophagy">细胞自噬</string>
+    <string name="phase_deep_autophagy">深度自噬</string>
+    <string name="phase_extended_reset">深度重置</string>
+
+    <string name="milestone_12h_desc">肝糖原逐步耗尽，身体开始明显提高脂肪氧化供能比例。</string>
+    <string name="milestone_16h_desc">酮体水平上升，大脑与身体进入更平稳的能量代谢状态。</string>
+    <string name="milestone_18h_desc">酮体生成进一步加深，生长激素分泌逐步提升。</string>
+    <string name="milestone_24h_desc">细胞启动自我清理与修复机制，回收受损蛋白与细胞器。</string>
+    <string name="milestone_48h_desc">自噬与细胞更新进入更深阶段，请注意及时补水与电解质。</string>
+    <string name="milestone_72h_desc">高阶长断食阶段，请密切关注身体状态并科学温和复食。</string>
+    <string name="milestone_unlocked">已达成</string>
+    <string name="milestone_locked">未到达</string>
+
+    <!-- Plan Sheet -->
+    <string name="plans_sheet_title">断食计划</string>
+    <string name="plan_group_daily">日常轻断食</string>
+    <string name="plan_group_extended">长断食（注意补水与电解质）</string>
+    <string name="plan_group_custom">自定义计划</string>
+    <string name="plan_daily_desc">%1$dh 断食 · %2$dh 进食</string>
+    <string name="plan_extended_desc">%1$dh 长断食</string>
+    <string name="new_custom_plan">新建计划</string>
+    <string name="create_plan_title">新建自定义计划</string>
+    <string name="plan_name_label">计划名称</string>
+    <string name="fasting_hours_label">断食时长（小时）</string>
+    <string name="eating_hours_label">进食窗口（小时，可选）</string>
+    <string name="extended_fast_checkbox">长断食（无固定进食窗口）</string>
+    <string name="delete_plan_title">删除计划？</string>
+    <string name="delete_plan_message">确定删除「%1$s」吗？使用该计划完成的历史断食记录将被安全保留。</string>
+    <string name="plan_deleted_toast">已删除自定义计划（历史记录已安全保留）</string>
+
+    <!-- Time Adjust & End Fast Sheet -->
+    <string name="adjust_start_sheet_title">调整开始时间</string>
+    <string name="quick_now">现在</string>
+    <string name="quick_30m_ago">30分钟前</string>
+    <string name="quick_1h_ago">1小时前</string>
+    <string name="quick_2h_ago">2小时前</string>
+    <string name="pick_exact_time">精确选择日期与时间</string>
+    <string name="end_fast_confirm_title">结束本次断食？</string>
+    <string name="end_fast_short_title">未满 1 小时</string>
+    <string name="end_fast_short_desc">本次断食仅持续 %1$s，未满 1 小时。结束将直接放弃本次计时，不会计入历史记录。</string>
+    <string name="discard_fast">放弃本次计时</string>
+    <string name="keep_fasting">继续断食</string>
+    <string name="save_fast">保存本次记录</string>
+    <string name="mood_optional_label">此刻感受（可选）</string>
+    <string name="note_optional_placeholder">记一句感受或备注（可选）</string>
+    <string name="fast_saved_toast">已保存本次断食记录</string>
+    <string name="fast_discarded_toast">已放弃未满 1 小时的计时</string>
+    <string name="end_time_label">结束时间</string>
+
+    <!-- Stats Screen -->
+    <string name="stats_title">统计</string>
+    <string name="log_past_fast">手动补录</string>
+    <string name="total_fasts">总断食</string>
+    <string name="current_streak">连续天数</string>
+    <string name="longest_fast">最长断食</string>
+    <string name="average_fast">平均时长</string>
+    <string name="weekly_overview">近 7 天断食</string>
+    <string name="weekly_target_label">目标 %1$dh</string>
+    <string name="monthly_heatmap">月度热力图</string>
+    <string name="fasting_history">历史记录</string>
+    <string name="tap_to_edit_hint">点击可编辑或删除</string>
+    <string name="no_history_yet">还没有完成的断食记录，开启你的第一次断食吧。</string>
+    <string name="heatmap_no_record">当日无记录</string>
+
+    <!-- Achievements -->
+    <string name="achievement_first_fast">初次断食</string>
+    <string name="achievement_16h">16h 俱乐部</string>
+    <string name="achievement_18h">18h 进阶</string>
+    <string name="achievement_24h">24h 勇士</string>
+    <string name="achievement_7d">连续 7 天</string>
+
+    <!-- Session Editor Sheet -->
+    <string name="edit_record_title">编辑记录</string>
+    <string name="add_record_title">手动补录断食</string>
+    <string name="start_date_time">开始时间</string>
+    <string name="end_date_time">结束时间</string>
+    <string name="calculated_duration">本次时长</string>
+    <string name="select_plan_label">关联计划</string>
+    <string name="error_duration_range">单次断食时长须满 1 小时且不超过 168 小时。</string>
+    <string name="error_end_before_start">结束时间必须晚于开始时间。</string>
+    <string name="error_future_time">时间不能晚于当前时间。</string>
+    <string name="error_session_overlap">该时间段与已有或进行中的断食记录重叠。</string>
+    <string name="delete_record_confirm">确定永久删除这条断食记录吗？</string>
+    <string name="record_deleted_toast">记录已删除</string>
+    <string name="record_updated_toast">记录已保存</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">设置</string>
+    <string name="settings_appearance">外观</string>
+    <string name="theme_system">系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="dynamic_color_title">跟随壁纸取色</string>
+    <string name="dynamic_color_desc">关闭以保留默认静谧健康品牌色板</string>
+    <string name="settings_language">语言</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_english">English</string>
+    <string name="lang_chinese">简体中文</string>
+
+    <string name="settings_notifications">通知提醒</string>
+    <string name="notif_permission_required">需要开启通知权限</string>
+    <string name="notif_permission_message">开启后可接收代谢里程碑提醒与实时计时状态栏显示。</string>
+    <string name="enable_permission">前往设置</string>
+    <string name="live_update_hint_title">实时更新 / 超级岛权限</string>
+    <string name="live_update_hint_desc">开启后可在锁屏和顶部状态栏胶囊展示实时断食进度。</string>
+    <string name="notif_all_title">启用所有通知</string>
+    <string name="notif_ongoing_title">常驻状态栏计时</string>
+    <string name="notif_ongoing_desc">在下拉通知栏保持一条静音实时计时通知</string>
+    <string name="notif_super_island_title">超级岛 / 实时更新</string>
+    <string name="notif_super_island_desc">将计时晋升至顶部超级岛胶囊与展开大岛（关闭则仅留普通通知栏）</string>
+    <string name="notif_lock_screen_title">锁屏显示</string>
+    <string name="notif_lock_screen_desc">关闭后锁屏隐藏断食进度，仅解锁后可见</string>
+    <string name="notif_minimal_title">极简通知样式</string>
+    <string name="notif_minimal_desc">只显示阶段、时长与进度条，隐藏时间明细与操作按钮</string>
+    <string name="notif_milestone_title">代谢里程碑提醒</string>
+    <string name="notif_milestone_desc">在 12h / 16h / 18h / 24h / 48h / 72h 达成时提醒</string>
+    <string name="notif_complete_title">目标达成提醒</string>
+    <string name="notif_complete_desc">达到当前计划目标时长时提醒</string>
+
+    <string name="settings_data">数据管理</string>
+    <string name="backup_desc">纯本地 JSON 备份（系统文件选择器），绝不上传云端。</string>
+    <string name="export_backup">导出备份</string>
+    <string name="import_backup">导入备份</string>
+    <string name="export_success">备份导出成功</string>
+    <string name="import_success">已导入 %1$d 个计划和 %2$d 条记录</string>
+    <string name="backup_error">备份操作失败：%1$s</string>
+
+    <string name="support_developer">支持开发者</string>
+    <string name="support_developer_desc">无广告、零追踪、100% 本地隐私存储。</string>
+    <string name="support_now">请喝杯咖啡</string>
+    <string name="donation_dialog_title">支持应用开发</string>
+    <string name="donation_dialog_message">感谢使用断食追踪！你的支持将帮助这个应用持续保持免费、无广告与隐私优先。</string>
+    <string name="donation_dialog_foss_hint">将在浏览器中打开 solocraft.app</string>
+    <string name="donation_price">¥14 / $1.99</string>
+    <string name="maybe_later">以后再说</string>
+    <string name="donation_processing">处理中…</string>
+    <string name="donation_success_title">非常感谢！</string>
+    <string name="donation_success_message">感谢你的支持，祝你断食之旅顺利健康！</string>
+    <string name="donation_error_title">暂无法完成支付</string>
+    <string name="donation_error_message">当前无法发起赞助，请稍后再试。</string>
+
+    <string name="settings_about">关于</string>
+    <string name="about_solocraft">SoloCraft 独立软件工坊出品</string>
+    <string name="about_solocraft_desc">solocraft.app · 原生、克制、隐私优先的独立作品</string>
+    <string name="about_source_code">开源代码（GPL-3.0）</string>
+    <string name="about_source_code_desc">在 GitHub 查看完整源码</string>
+    <string name="app_version">版本</string>
+    <string name="app_description">一款静谧、隐私优先的间歇性断食追踪工具，所有数据仅保存在本机。</string>
+    <string name="view_disclaimer">健康免责声明与隐私说明</string>
+    <string name="disclaimer_title">健康免责声明</string>
+    <string name="disclaimer_message">本应用仅供个人健康习惯记录参考，不构成任何医疗建议。在开始任何断食计划（尤其是 24 小时以上长断食）前，或存在基础健康状况时，请先咨询专业医生。</string>
+    <string name="disclaimer_accept">我已知晓</string>
+    <string name="privacy_first_title">隐私优先</string>
+    <string name="privacy_first_desc">无需注册账号、无埋点统计、无云端同步，你的每一条记录都只属于你自己的设备。</string>
+
+    <!-- Notifications & Channels -->
+    <string name="channel_ongoing_name">实时断食计时</string>
+    <string name="channel_ongoing_desc">在状态栏、超级岛及锁屏显示当前断食进度</string>
+    <string name="channel_milestone_name">代谢里程碑</string>
+    <string name="channel_milestone_desc">达到断食生理阶段里程碑时通知</string>
+    <string name="channel_reminder_name">断食达标提醒</string>
+    <string name="channel_reminder_desc">达到计划断食目标时长时通知</string>
+
+    <string name="notif_ongoing_title_format">%1$s · %2$s</string>
+    <string name="notif_ongoing_goal_reached">%1$s · 已达标</string>
+    <string name="notif_ongoing_body_format">开始于 %1$s · 预计 %2$s 达标</string>
+    <string name="notif_eating_title_format">%1$s · 进食窗口</string>
+    <string name="notif_eating_body_format">上次结束 %1$s · 建议 %2$s 开始断食</string>
+    <string name="notif_milestone_title_format">%1$s 达成</string>
+    <string name="notif_complete_body">你已完成 %1$d 小时的断食目标，太棒了！</string>
+
+    <!-- Widget & Shortcuts -->
+    <string name="widget_description">在桌面随时查看当前断食进度或进食窗口。</string>
+    <string name="widget_ready">准备开启断食</string>
+    <string name="shortcut_start_fast_short">开始断食</string>
+    <string name="shortcut_start_fast_long">开始断食</string>
+</resources>

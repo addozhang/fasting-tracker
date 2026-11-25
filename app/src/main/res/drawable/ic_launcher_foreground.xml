@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Concept B: Dual Rhythm 16:8 (240° Amber Fasting Arc + 90° Sage Green Eating Arc) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 240° Fasting Arc (16h) -->
+    <path
+        android:pathData="M54,28 A26,26 0 1,1 31.5,67"
+        android:strokeWidth="9.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="54"
+                android:startY="28"
+                android:endX="31.5"
+                android:endY="67"
+                android:type="linear">
+                <item android:color="#EC7D4B" android:offset="0.0" />
+                <item android:color="#F5B46E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 90° Eating Window Arc (8h) in Sage Green -->
+    <path
+        android:pathData="M30.2,43.2 A26,26 0 0,1 43.2,30.2"
+        android:strokeColor="#69A086"
+        android:strokeWidth="9.5"
+        android:strokeLineCap="round" />
+</vector>

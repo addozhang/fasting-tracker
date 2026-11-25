@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 5-pointed star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,2 L14.09,8.26 L20.5,8.27 L15.45,11.97 L17.54,18.23 L12,14.54 L6.46,18.23 L8.55,11.97 L3.5,8.27 L9.91,8.26 Z"/>
+</vector>

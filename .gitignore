@@ -1,0 +1,28 @@
+# Gradle & Android build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+captures/
+
+# IDE & OS
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+
+# Compiled binaries
+*.class
+*.dex
+
+# Signing keys and release artifacts (never commit)
+*.keystore
+*.jks
+*.pem
+*.apk
+*.aab
