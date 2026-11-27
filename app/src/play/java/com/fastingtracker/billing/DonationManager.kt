@@ -70,7 +70,8 @@ class DonationManager @Inject constructor(
             .setProductList(productList)
             .build()
 
-        client.queryProductDetailsAsync(params) { result, detailsList ->
+        client.queryProductDetailsAsync(params) { result, queryResult ->
+            val detailsList = queryResult.productDetailsList
             if (result.responseCode == BillingClient.BillingResponseCode.OK && detailsList.isNotEmpty()) {
                 productDetails = detailsList.first()
                 launchPurchase(activity)

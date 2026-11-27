@@ -150,8 +150,8 @@ dependencies {
     implementation("androidx.glance:glance-appwidget:1.1.1")
     implementation("androidx.glance:glance-material3:1.1.1")
 
-    // Google Play Billing (play flavor only — keeps foss flavor 100% free of proprietary blobs)
-    "playImplementation"("com.android.billingclient:billing-ktx:7.1.1")
+    // Google Play Billing 8.x (play flavor only — keeps foss flavor 100% free of proprietary blobs)
+    "playImplementation"("com.android.billingclient:billing:8.3.0")
 
     // Testing
     testImplementation("junit:junit:4.13.2")
